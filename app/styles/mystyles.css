@@ -8,26 +8,9 @@
 }*/
 
 
-#top-links {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 10px;
-  padding-bottom:5px;
-  font-weight:600;
-  font-size:17px;
-}
-
-#top-links a, #forgot-pw a {
-	color:#5B1268;
-}
-
-#top-links a:hover, a:active, #forgot-pw a:hover, a:active {
-	color:#9702B1;
-}
-
 .main-title .img-responsive {
     margin: 0 auto;
-	padding-top:50px;
+	padding-top:5px;
 	padding-bottom:10px;
 }
 
@@ -94,5 +77,53 @@
 .copyright {
 	text-align:center;
 }
+
+
+/*Navbar styles*/
+.navbar {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 15px;
+	margin-bottom:5px;
+}
+
+.navbar-nav > li > a { 
+    padding-top: 7px; 
+    padding-bottom: 7px; 
+	font-size:17px;
+	font-weight:600;
+	color:#9702B1;
+}
+
+.navbar-nav > li > a:hover {
+	border-radius: 5px;
+	background-color:#DCC4CB;
+	color:#5B1268;
+}
+
+.navbar { 
+    min-height: 32px; 
+}
+
+.navbar-toggle {
+	background-color:#D7CBCB;
+	border-color:white;
+	border-width:1px;
+}
+
+.navbar .navbar-toggle .icon-bar {
+	background-color:white;
+}
+
+.navbar .navbar-brand {
+	padding-top:0px;
+	padding-left:20px;
+}
+
+#brand-tagline {
+	font-size:10px;
+}
+
+
 
 
