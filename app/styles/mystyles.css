@@ -8,6 +8,51 @@
 }*/
 
 
+/*Navbar styles*/
+.navbar {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 15px;
+	margin-bottom:5px;
+}
+
+.navbar-nav > li > a { 
+    padding-top: 7px; 
+    padding-bottom: 7px; 
+	margin-right:10px;
+	margin-left:10px;
+	font-size:17px;
+	font-weight:600;
+	color:#904D6C;
+}
+
+.navbar-nav > li > a:hover {
+	border-radius: 2px;
+	background-color:#D5D5D5;
+	color:#5B1268;
+}
+
+.navbar { 
+    min-height: 32px; 
+}
+
+.navbar-toggle {
+	background-color:#D5D5D5;
+	border-color:white;
+	border-width:1px;
+}
+
+.navbar .navbar-toggle .icon-bar {
+	background-color:white;
+}
+
+.navbar .navbar-brand {
+	padding-top:0px;
+	padding-left:20px;
+}
+
+
+/*Title image and tagline*/
 .main-title .img-responsive {
     margin: 0 auto;
 	padding-top:5px;
@@ -21,23 +66,23 @@
 	font-size:20px;
 }
 
+/*form styles*/
 .form-group {
 	padding-bottom:0px;
+	padding-left:10px;
 	margin-bottom:5px;
 }
 .form-group label {
 	padding-bottom:0px;
-	padding:0 0 0 0;
 	margin-bottom:0px;
 	margin-left:0px;
-	margin:0 0 0 0;
 }
-
 
 #login-form {
 	padding-bottom:10px;
 }
 
+/*Log in links*/
 #register-link {
 	font-size:15px;
 	font-weight:600;
@@ -51,12 +96,28 @@
 	color:#D50070;
 }
 
+#forgot-pw a {
+	color:#9C0052;
+}
+
+#forgot-pw a:hover, a:active {
+	color:#D50070;
+}
+
+
+/*Footer styles*/
+.row-footer {
+	padding-left:20px;
+	padding-right:20px;
+}
+
 #footer-links {
   display: flex;
   justify-content: space-between;
   padding-left:0px;
   padding-right:0px;
   padding-top: 5px;
+  padding-bottom:10px;
 }
 
 #footer-links a {
@@ -79,50 +140,8 @@
 }
 
 
-/*Navbar styles*/
-.navbar {
-    padding-top: 4px;
-    padding-bottom: 4px;
-    padding-right: 15px;
-	margin-bottom:5px;
-}
 
-.navbar-nav > li > a { 
-    padding-top: 7px; 
-    padding-bottom: 7px; 
-	font-size:17px;
-	font-weight:600;
-	color:#9702B1;
-}
 
-.navbar-nav > li > a:hover {
-	border-radius: 5px;
-	background-color:#DCC4CB;
-	color:#5B1268;
-}
-
-.navbar { 
-    min-height: 32px; 
-}
-
-.navbar-toggle {
-	background-color:#D7CBCB;
-	border-color:white;
-	border-width:1px;
-}
-
-.navbar .navbar-toggle .icon-bar {
-	background-color:white;
-}
-
-.navbar .navbar-brand {
-	padding-top:0px;
-	padding-left:20px;
-}
-
-#brand-tagline {
-	font-size:10px;
-}
 
 
 
